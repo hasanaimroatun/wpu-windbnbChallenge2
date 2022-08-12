@@ -13,5 +13,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_WINDBNBCHALLENGE }}'
-          projectId: windbnbchallenge
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_WIND_BNB_CHALLENGE }}'
+          projectId: wind-bnb-challenge
