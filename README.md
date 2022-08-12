@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/hasanaimroatun/wpu-windbnbChallenge">
+    <a href="https://github.com/hasanaimroatun/wpu-windbnbChallenge2">
       Solution
     </a>
     <span> | </span>
@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/hasanaimroatun/wpu-windbnbChallenge/blob/master/src/components/screenshoot/2022-08-04%20(4).png)
+![screenshot](https://github.com/hasanaimroatun/wpu-windbnbChallenge2/blob/master/src/components/screenshoot/2022-08-04%20(4).png)
 
 You can see my demo on https://windbnb-challenge-af8da.web.app. I have no experience in website development but i have interest in this field since a few months ago. I have learned css, html, javascript, and react from youtube and few website. I hope with more learn and practice from devChallenges can improve my skill in developing website.
 
