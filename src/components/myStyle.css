@@ -1,0 +1,521 @@
+@font-face {
+    font-family: 'montserrat';
+    src: local('montserrat'),
+    url('./font/montserrat-regular-webfont.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'mulish';
+    src: local('mulish'),
+    url('./font/muli-webfont.woff2') format('woff2');
+}
+
+.bnb {
+    margin: 49px 54px 85px;
+    cursor: pointer;   
+}
+
+.containerTombol {
+    float: right;
+    margin-right: 45px;
+    margin-top: 49px;
+}
+
+.kotak1 {
+    border: none;
+    height: 50px;
+    width: 170px;
+    background-color: white;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    box-shadow: 0px 0px 2px grey;
+    font-family: 'mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #bdbdbd;
+    cursor: pointer;
+}
+
+.kotak2 {
+    border: none;
+    height: 50px;
+    width: 120px;
+    background-color: white;
+    box-shadow: 0px 0px 2px grey;
+    font-family: 'mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #bdbdbd;
+    cursor: pointer;
+}
+
+.kotak3 {
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    box-shadow: 0px 0px 2px grey;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+
+.judulUtm {
+    font-family: 'montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 29.26px;
+    color: #333;
+    width: 199px;
+    height: 29px;
+    margin-left: 54px;
+}
+
+.jumlah {
+    font-family: 'montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    color: #4f4f4f;
+    width: 61px;
+    height: 17px;
+    float: right;
+    margin-right: 45px;
+}
+
+.containerGbrUtm {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 54px;
+    margin-top: 30px;
+    column-gap: 35px;
+    row-gap: 70px;
+}
+
+.gambarUtama {
+    width: 395px;
+    height: 269px;
+    border-radius: 24px;
+}
+
+.super {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #4f4f4f;
+    width: 81px;
+    height: 15px;
+    border: 1px solid #4f4f4f;
+    border-radius: 12px;
+    padding: 5px 7px;
+    margin-right: 5px;
+}
+
+.detail {
+    font-family: 'montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    color: #828282;
+    width: 181px;
+    height: 17px;
+}
+
+.bintang {
+    position: relative;
+    top: 5px;
+}
+
+.rate {
+    font-family: 'montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 17.07px;
+    color: #4f4f4f;
+    width: 30px;
+    height: 17px;
+    margin-left: 3px;
+}
+
+.posisiRate {
+    float: right;
+    margin-top: -7px;
+    margin-right: 10px;
+}
+
+.judul {
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    color: #333;
+    height: 20px;
+    padding-top: 15px;
+}
+
+.created {
+    font-family: 'montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 17.07px;
+    text-align: center;
+    color: #828282;
+    margin-top: 178px;
+    margin-bottom: 35px;
+}
+
+.nama {
+    color: inherit;
+    font-weight: 700;
+}
+
+.none {
+    display: none;
+}
+
+.lbox {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    z-index: 100;
+}
+
+.containerTombolLBox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 40%;
+    background-color: white;
+}
+
+.lBoxTombol {
+    height: 50px;
+    width: 100px;
+}
+
+.tombolLokasi {
+    width: 426px;
+    height: 55px;
+    margin-left: 97px;
+    margin-top: 93px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 2px grey;
+    background-color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tombolTamu {
+    width: 426px;
+    height: 55px;
+    margin-top: 93px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 2px grey;
+    background-color: white;
+    border: none;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.tombolPencarian {
+    width: 126px;
+    height: 55px;
+    background-color: #eb5757;
+    border-radius: 16px;
+    position: relative;
+    left: 100px;
+    border: none;
+    position: relative;
+    top: 17px;
+    right: 97px;
+    cursor: pointer;
+}
+
+.lokasiDanTamu {
+    font-family: 'mulish', sans-serif;
+    font-size: 9px;
+    font-weight: 800;
+    line-height: 11.3px;
+    color: #333;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.tambahLokasiDanTamu {
+    font-family: 'mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 17.57px;
+    color: #bdbdbd;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.tambahLokasiDanTamu2 {
+    font-family: 'mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 17.57px;
+    color: #333;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.pencarian {
+    font-family: 'mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.57px;
+    color: #f2f2f2;
+    position: relative;
+    top: -6px;
+    left: 5px;
+}
+
+.gbrPencarian {
+    position: relative;
+    margin-left: -5px;
+}
+
+.pilihanLokasi {
+    display: block;
+    font-family: 'mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.57px;
+    color: #4f4f4f;
+    margin-left: 115px;
+    margin-top: 17px;
+    width: 206px;
+    cursor: pointer;
+}
+
+.pin {
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.kategoriTamu {
+    display: block;
+    font-family: 'mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.57px;
+    width: 69px;
+    color: #333;
+    margin-left: 550px;
+    cursor: default;
+}
+
+.kategoriUsiaTamu {
+    display: block;
+    font-family: 'mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.57px;
+    width: 120px;
+    color: #bdbdbd;
+    margin-bottom: 7px;
+    margin-left: 550px;
+    cursor: default;
+}
+
+.tombolKurang {
+    font-family: 'mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.57px;
+    color: #828282;
+    border: 1px solid #828282;
+    border-radius: 3px;
+    margin-left: 550px;
+    cursor: pointer;
+}
+
+.tombolTambah {
+    font-family: 'mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.57px;
+    color: #828282;
+    border: 1px solid #828282;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.hasilTambahKurang {
+    font-family: 'mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.57px;
+    color: #333;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: default;
+}
+
+.containerTombolKategori{
+    margin-top: 35px;
+}
+
+.editSearch {
+    display: none;
+}
+
+.close {
+    display: none;
+}
+
+
+
+
+
+
+/* media query */
+@media (max-width: 600px) {
+    .bnb {
+        margin-top: 22px;
+        margin-left: 12px;
+    }
+
+    .containerTombol {
+        float: none;
+        position: absolute;
+        margin-left: -140px;
+        margin-top: 75px;
+    }
+
+    .judulUtm {
+        position: relative;
+        font-size: 18px;
+        line-height: 21.94px;
+        margin-left: 12px;
+        top: 39px;
+        font-weight: 700;
+    }
+
+    .jumlah {
+        position: absolute;
+        top: 172px;
+        left: 300px
+    }
+
+    .containerGbrUtm {
+        margin-left: 13px;
+        margin-top: 59px;
+        row-gap: 20px;
+    }
+
+    .gambarUtama {
+        width: 350px;
+        height: 238px;
+    }
+
+    .super {
+        font-size: 10px;
+        line-height: 12.19px;
+        width: 72px;
+        height: 13px;
+        position: relative;
+        top: -18px;        
+    }
+
+    .detail {
+        font-size: 12px;
+        line-height: 14.63px;
+        position: relative;
+        top: -18px;  
+    }
+
+    .rate {
+        font-size: 12px;
+        line-height: 14.63px;
+    }
+
+    .posisiRate {
+        margin-right: 12px;
+        position: relative;
+        top: -18px;  
+    }
+
+    .judul {
+        font-size: 14px;
+        line-height: 17.07px;
+        position: relative;
+        top: -23px;  
+    }
+
+    .containerTombolLBox {
+        bottom: 15%;
+    }
+
+    .tombolLokasi {
+        width: 351px;
+        margin-left: 21px;
+        margin-top: 0px;
+    }
+
+    .tombolTamu {
+        width: 351px;
+        margin-left: 21px;
+        margin-top: 0px;
+    }
+
+    .tombolPencarian {
+        height: 48px;
+        top: 360px;
+        left: -225px
+    }
+
+    .pilihanLokasi {
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    .kategoriTamu {
+        margin-left: 40px;
+    }
+
+    .kategoriUsiaTamu {
+        margin-left: 40px;
+    }
+
+    .tombolKurang {
+        margin-left: 40px;
+    }
+
+    .editSearch {
+        display: block;
+        font-family: 'mulish';
+        font-size: 12px;
+        font-weight: 700px;
+        line-height: 15.06px;
+        color: #333;
+        margin-top: 18px;
+        margin-left: 10px;
+        cursor: default;
+    }
+
+    .close {
+        display: block;
+        position: relative;
+        top: -15px;
+        left: 350px;
+    }
+}
+
+
